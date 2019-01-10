@@ -6,11 +6,10 @@
 
 ## الحقوق و المراجع - Credits and References
 
-قد قمت باستعمال [هذه](https://hackernoon.com/creating-a-lorem-ipsum-generator-with-node-and-express-9e1af0b31c86) المقالة لبناء 
+- قد قمت باستعمال [هذه](https://hackernoon.com/creating-a-lorem-ipsum-generator-with-node-and-express-9e1af0b31c86) المقالة لبناء 
 المولد
 <br>
-وقمت باستعمال [هذا القالب](https://startbootstrap.com/template-overviews/coming-soon/) من بوتستراب لتصميم الموقع
-
-<br>Used this [tutorial](https://hackernoon.com/creating-a-lorem-ipsum-generator-with-node-and-express-9e1af0b31c86) to build the base for Lorem Ipsum Generator.
-<br>Used this [bootstrap template](https://startbootstrap.com/template-overviews/coming-soon/) for css references
+- وقمت باستعمال [هذا القالب](https://startbootstrap.com/template-overviews/coming-soon/) من بوتستراب لتصميم الموقع
+<br>- Used this [tutorial](https://hackernoon.com/creating-a-lorem-ipsum-generator-with-node-and-express-9e1af0b31c86) to build the base for Lorem Ipsum Generator.
+<br>- Used this [bootstrap template](https://startbootstrap.com/template-overviews/coming-soon/) for css references
 
