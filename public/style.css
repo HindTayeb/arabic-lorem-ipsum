@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri');
+
+html {
+  height: 100%;
+  margin: 0;
+}
+    
+body {
+  height: 100%;
+  min-height: 35rem;
+  height: auto !important;
+  position: relative;
+  font-family: 'Amiri', serif;
+  font-weight: 300;
+  margin: 0;
+  background: url("bg.jpg") no-repeat center center fixed;
+  background-position: cover;
+}
+
+#landing-header {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding: 30vh 0;
+  }
+
+.generated-text{
+  padding: 0 200px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #cd9557;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Amiri', serif;
+      font-weight: 700;
+      font-size: 3em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+
+
+
+
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #838383;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+input[type=submit]:hover {
+  background-color: #565656;
+}
+
+.form-div {
+  border-radius: 5px;
+  padding: 0 500px;
