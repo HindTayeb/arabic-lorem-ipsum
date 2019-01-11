@@ -11,7 +11,7 @@ const router = express.Router();
 router.get('/', (request, response) => {
   response.setHeader('Content-Type', 'text/html');
   // Capture the contents of index.html in a variable
-  let fileContents = fs.readFileSync("./public/index.html", {encoding: "utf8"});
+  let fileContents = fs.readFileSync("./index.html", {encoding: "utf8"});
   // Send a response to the client with the index.html file
   response.write(fileContents);
   response.end();
@@ -28,7 +28,7 @@ router.post('/', (request, response) => {
     // Generate the lorem ipsum text with the getAllParagraphs function
     let loremIpsumText = loremIpsum.getAllParagraphs(numberOfParagraphs);
     // Capture the contents of index.html in a variable
-    let fileContents = fs.readFileSync("./public/index.html", {encoding: "utf8"});
+    let fileContents = fs.readFileSync("./index.html", {encoding: "utf8"});
     // Replace the placeholder <div> with the lorem ipsum text
     fileContents = fileContents.replace("<div class='placeholder-div'></div>",loremIpsumText);;
     response.setHeader('Content-Type', 'text/html');
