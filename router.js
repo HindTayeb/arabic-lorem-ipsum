@@ -6,9 +6,10 @@ const fs = require("fs");
 // Require express and create an express router object
 const express = require('express');
 const router = express.Router();
+var port = process.env.PUBLIC_URL
 
 // Route that serves index.html
-router.get('/', (request, response) => {
+router.get(port+'/', (request, response) => {
   response.setHeader('Content-Type', 'text/html');
   // Capture the contents of index.html in a variable
   let fileContents = fs.readFileSync("./index.html", {encoding: "utf8"});
@@ -18,7 +19,7 @@ router.get('/', (request, response) => {
 });
 
 // Route that generates the lorem ipsum text and reloads a modified index.html
-router.post('/', (request, response) => {
+router.post(port+'/', (request, response) => {
   request.on("data", function(inputValue) {
     // Convert the POST data into a readable string
     let query = inputValue.toString(); // i.e. numberOfParagraphs=3
